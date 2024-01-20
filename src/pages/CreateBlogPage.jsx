@@ -1,6 +1,6 @@
 import Footer from '@/components/ui/Footer';
 import Navbar from '@/components/ui/Navbar';
-import BlogForm from '@/components/ui/blogForm';
+import BlogForm from '@/components/ui/BlogForm';
 import React from 'react';
 
 function CreateBlogPage(props) {
