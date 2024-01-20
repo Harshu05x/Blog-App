@@ -70,7 +70,7 @@ function Navbar(props) {
 
                                         )   :
                                         (
-                                            <Button variant="destructive" className=" text-base bg-green-600"
+                                            <Button variant="destructive" className=" text-base bg-green-600 hover:bg-green-800"
                                                 onClick={ () => navigate("/login")}
                                             >
                                                 Log In
