@@ -70,7 +70,7 @@ function Navbar(props) {
 
                                         )   :
                                         (
-                                            <Button variant="destructive" className=" text-base"
+                                            <Button variant="destructive" className=" text-base bg-green-600"
                                                 onClick={ () => navigate("/login")}
                                             >
                                                 Log In
