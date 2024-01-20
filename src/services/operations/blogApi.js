@@ -17,6 +17,7 @@ export function getAllBlogs() {
         dispatch(setLoading(true));
         let result;
         try {
+            
             // const response = await apiConnector("GET", GET_ALL_BLOGS_API);
             const response = await axios.get(GET_ALL_BLOGS_API);
 
