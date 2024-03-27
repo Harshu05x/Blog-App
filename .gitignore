@@ -25,5 +25,4 @@ dist-ssr
 
 # environment
 .env
-.env
 server/.env
